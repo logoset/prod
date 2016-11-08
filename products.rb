@@ -29,7 +29,7 @@ class Products
         i=0
         tovar.item.each_key do |key|
           tovar.add(key,v[i])
-          i+=i
+          i+=1
         end
       end
       if (v.class==Hash) && (v.size==tovar.item.size) then
